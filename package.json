@@ -1,6 +1,6 @@
 {
   "name": "babel_webpack_starter",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Starter pack for compiling ES6+ apps to ES5",
   "main": "app.js",
   "scripts": {

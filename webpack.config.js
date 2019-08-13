@@ -12,13 +12,17 @@ module.exports = {
     filename: 'app.bundle.js',
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.js?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-           presets: ['@babel/preset-env', '@babel/preset-stage-0']
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-stage-0']
+          }
         }
-    }]
+      }
+    ]
   }
 }

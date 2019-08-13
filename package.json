@@ -4,8 +4,8 @@
   "description": "Starter pack for compiling ES6+ apps to ES5",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "start": "webpack-dev-server --output-public-path=/build/ --mode development --progress --open --hot",
+    "build": "webpack --mode production --progress"
   },
   "author": "Brad Traversy",
   "license": "MIT",

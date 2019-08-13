@@ -10,13 +10,21 @@
   "author": "Brad Traversy",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "babel-loader": "^8.0.5",
+    "@babel/core": "^7.5.5",
+    "babel-loader": "^8.0.6",
     "@babel/polyfill": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-stage-0": "^7.0.0",
-    "webpack": "^4.16.1",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.10"
-  }
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amis-shokoohi/babel_webpack_starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amis-shokoohi/babel_webpack_starter/issues"
+  },
+  "homepage": "https://github.com/amis-shokoohi/babel_webpack_starter#readme"
 }

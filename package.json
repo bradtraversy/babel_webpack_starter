@@ -18,14 +18,5 @@
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.8.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amis-shokoohi/babel_webpack_starter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/amis-shokoohi/babel_webpack_starter/issues"
-  },
-  "homepage": "https://github.com/amis-shokoohi/babel_webpack_starter#readme",
-  "dependencies": {}
+  }
 }
